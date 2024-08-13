@@ -22,6 +22,10 @@ body{
     overflow: scroll;
 }
 
+.ccon::-webkit-scrollbar{
+    display: none;
+}
+
 .card{
     /* overflow: scroll; */
     height: 30rem;
